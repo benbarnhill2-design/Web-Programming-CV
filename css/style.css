@@ -1,6 +1,10 @@
 body {
   margin: 0;
   min-height: 100vh;
+  background-color: #d8c9bf;
+}
+
+body.contact-page {
   background-color: #696969;
 }
 
@@ -49,7 +53,7 @@ footer a:hover {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(180deg, #d8c9bf 0%, #696969 100%);
+  background: linear-gradient(180deg, #696969 0%, #d8c9bf 100%);
 }
 
 header h1 {
@@ -68,14 +72,14 @@ header img {
 
 .address {
   font-family: "SN Pro", sans-serif;
-  color: #e0e0e0;
+  color: #000000;
   text-align: center;
   margin: 15px 0;
 }
 
 .tagline {
   font-family: "SN Pro", sans-serif;
-  color: #F39C12;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   margin: 10px 0;
