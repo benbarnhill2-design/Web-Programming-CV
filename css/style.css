@@ -1,18 +1,26 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #d8c9bf;
+  background: linear-gradient(180deg,#d8c9bf 50%, #696969 100%);
 }
 
 body.contact-page {
-  background-color: #696969;
+  background: linear-gradient(180deg, #696969 0%, #d8c9bf 100%);
+}
+
+body.contact-page footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
 }
 
 /****************   Nav Section **********************/
 nav {
   display: flex;
   justify-content: space-between;
-  background: rgba(45, 45, 45, 0.8);
+  background: linear-gradient(90deg, #1a1a1a 0%, #2d2d2d 100%);
   padding: 0px 20px 0px 20px;
   color: #ffffff;
   font-family: "SN Pro", sans-serif;
@@ -36,7 +44,7 @@ footer {
   padding: 10px;
   color: #ffffff;
   gap: 15px;
-  box-shadow: 0 -2px 12px rgba(212, 92, 28, 0.3);
+  font-family: "SN Pro", sans-serif;
 }
 
 footer a {
@@ -237,7 +245,6 @@ input {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    border: 2px solid #D45C1C;
     border-radius: 6px;
     font-family: "SN Pro", sans-serif;
     background-color: #f8f9fa;
@@ -255,7 +262,6 @@ textarea {
     height: 150px;
     padding: 12px;
     box-sizing: border-box;
-    border: 2px solid #D45C1C;
     border-radius: 6px;
     font-family: "SN Pro", sans-serif;
     background-color: #f8f9fa;
